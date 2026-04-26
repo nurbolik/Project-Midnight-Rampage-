@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be690f36c171649409119619edd98aa4, type: 3}
+  m_Name: WeaponDatabase
+  m_EditorClassIdentifier: 
+  weapons:
+  - weaponType: 0
+    weaponPickupPrefab: {fileID: 0}
+    fireRate: 0.2
+    isAutomatic: 0
+    isMelee: 1
+  - weaponType: 1
+    weaponPickupPrefab: {fileID: 6543484332157590681, guid: c4ac86888687b2749aaf36a7c37814fa, type: 3}
+    fireRate: 0.2
+    isAutomatic: 0
+    isMelee: 1
+  - weaponType: 3
+    weaponPickupPrefab: {fileID: 4403304754908940924, guid: f08b358400d7d7845b190f928dfb33bc, type: 3}
+    fireRate: 0.2
+    isAutomatic: 0
+    isMelee: 1
+  - weaponType: 4
+    weaponPickupPrefab: {fileID: 8482630768500998229, guid: 62e0e02aea7df4742a9e778044ea3c52, type: 3}
+    fireRate: 0.3
+    isAutomatic: 0
+    isMelee: 0
+  - weaponType: 5
+    weaponPickupPrefab: {fileID: 3884699430765923758, guid: 8494db03d20737e4b9cbced8ae416196, type: 3}
+    fireRate: 0.1
+    isAutomatic: 1
+    isMelee: 0
+  - weaponType: 6
+    weaponPickupPrefab: {fileID: 482513016180021147, guid: 872a0b234be7cb44e82aea02541bc321, type: 3}
+    fireRate: 0.4
+    isAutomatic: 1
+    isMelee: 0
+  - weaponType: 7
+    weaponPickupPrefab: {fileID: 6911306342328360316, guid: 1651abc17fc58c1439fe96d4505e8c40, type: 3}
+    fireRate: 0.3
+    isAutomatic: 0
+    isMelee: 0
